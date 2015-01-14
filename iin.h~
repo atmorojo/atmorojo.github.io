@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<meta charset='UTF-8' />
+<title></title>
+<link href='stylesheets/screen.css' rel='stylesheet' />
+</head>
+
+<body>
+<header class='side'>
+	<hgroup class='titles'>
+	<h1 class='title'>Atmorojo</h1>
+	<h2 class='subtitle'>Simple Blog</h2>
+	</hgroup>
+	<nav class='navigation'>
+		<ul>
+			<li> <a href='#'>HOME</a> </li>
+			<li> <a href='#'>PORTOFOLIO</a> </li>
+			<li> <a href='#'>ABOUT</a> </li>
+		</ul>
+	</nav>
+</header>
+
+<div class='banner'>
+	<p>Hi,
+	my name is
+	Risyad Rais</p>
+</div>
+
+<section>
+	<article>
+		<header>
+			<h2>Title</h2>
+			<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+		</header>
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+	</article>
+</section>
+
+<footer>
+	<p>copyright&copy;</p>
+</footer>
+
+</body>
+</html>

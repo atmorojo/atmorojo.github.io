@@ -1,0 +1,14 @@
+<!-- header/navigation.html -->
+<nav>
+  <ul class='menu'>
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog">Blog</a>
+    <ul class='submenu'>
+      {% for category in site.categories %}
+      <li><a href='/categories/{{ category | first \}}'>{{ category | first }}</a></li>
+      {% endfor %}
+      </li>
+    </ul>
+    <li><a href="/archive">Archive</a></li>
+  </ul>
+</nav>

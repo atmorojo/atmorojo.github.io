@@ -1,0 +1,16 @@
+name: Atmorojo
+description: "When I find a nice desctiption, I'll put it here. I promise."
+
+url: http://atmorojo.com
+paginate: 10
+excerpt_separator: <!--more-->
+
+markdown: rdiscount
+rdiscount:
+    extensions:
+        - smart
+
+pygments: true
+permalink: /blog/:year/:month/:day/:title/
+
+exclude: [sass, stylesheets, config.rb, Guardfile, sync]
