@@ -50,14 +50,12 @@
 
 <p>Mode numbering sangat berguna saat ingin menghapus/me-yank beberapa baris sekaligus. Jika dalam mode absolute kita harus menghitung sendiri berapa baris yang akan kita hapus, dalam mode relative kita tidak perlu menghitung karena penomoran baris yang relative terhadap posisi kursor. Untuk mengaktifkan penomoran relative, gunakan perintah berikut:</p>
 
-<div class="highlight"><pre><code class="vim">  :<span class="k">set</span> <span class="nb">relativenumber</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="k">set</span> <span class="nb">relativenumber</span></code></pre></div>
 
 
 <p>Sedangkan untuk kembali pada mode absolut, gunakan perintah berikut:</p>
 
-<div class="highlight"><pre><code class="vim">  :<span class="k">set</span> <span class="nb">norelativenumber</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="k">set</span> <span class="nb">norelativenumber</span></code></pre></div>
 
 
 <p>Berikut perbedaan antara kedua mode tersebut:
@@ -69,14 +67,12 @@
 
 <p>Kemudian beberapa thread dan dokumentasi lain memberi petunjuk dan datanglah inspirasi:</p>
 
-<div class="highlight"><pre><code class="vim">  :<span class="k">set</span> <span class="nb">rnu</span><span class="p">!</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="p">:</span><span class="k">set</span> <span class="nb">rnu</span><span class="p">!</span></code></pre></div>
 
 
 <p>Tapi akan lebih mudah lagi jika perintah tersebut kita titipkan pada sebuah tombol di keyboard. Perintah ini dapat dipetakan pada tombol F4 dengan menambahkan baris berikut pada .vimrc:</p>
 
-<div class="highlight"><pre><code class="vim">  <span class="nb">nnoremap</span> <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;&lt;</span>F4<span class="p">&gt;</span> :<span class="k">se</span> <span class="nb">rnu</span><span class="p">!&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="nb">nnoremap</span> <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;&lt;</span>F4<span class="p">&gt;</span> :<span class="k">se</span> <span class="nb">rnu</span><span class="p">!&lt;</span><span class="k">cr</span><span class="p">&gt;</span></code></pre></div>
 
 
 <p>Sekian, terima kasih :)</p>
