@@ -7,6 +7,24 @@
 		<atom:link href="http://atmorojo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>Wake Up!</title>
+			<description>&lt;p&gt;Sudah lama banget hiatus dari kode-mengkode, dan merasa kalo otak ini benar-benar kering dari nutrisi dan vitamin :D&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+
+&lt;p&gt;Mungkin ini sudah waktunya untuk kembali koding-mengoding, melawan alasan-alasan dan kemalasan yang terus menjegal. Kembali berusaha melawan kefrustasian dan ketidakpercayaan diri ketika mengintip kembali kode-kode yang sudah ditulis. Berusaha merapikan workflow dan memahami pattern orang-orang yang sudah sukses mandahului kita. Berhenti membandingkan jarak tempuh yang baru kita ambil dengan jarak tempuh orang-orang yang sudah memulai jauh lebih dulu dari kita. Ok, lama-lama paragraf ini mulai nggak bermakna :D&lt;/p&gt;
+
+&lt;p&gt;Setelah lama hiatus dari dunia &amp;ldquo;Belajar Menulis Kode,&amp;rdquo; kali ini saya ingin benar-benar mendalami dan mengakui bahwa salah satu proses belajar adalah menghadapi kesalahan. Dan sebagai permulaan, saya kembali mengulik blog dan mengupload &lt;a href=&quot;https://github.com/atmorojo/Islamic-Bookstore-with-PHP&quot;&gt;salah satu tugas kuliah&lt;/a&gt; ke github.&lt;/p&gt;
+
+&lt;p&gt;Benar-benar berharap bisa konsisten ngoding lagi :&amp;lsquo;)&lt;/p&gt;
+</description>
+			<pubDate>Fri, 13 Feb 2015 00:00:00 +0700</pubDate>
+			<link>http://atmorojo.github.io/blog/2015/02/13/wake-up/</link>
+			<guid isPermaLink="true">http://atmorojo.github.io/blog/2015/02/13/wake-up/</guid>
+		</item>
+		
+		<item>
 			<title>My Blog is Up and Alive!</title>
 			<description>&lt;p&gt;Finally! It&amp;rsquo;s up and alive again! I&amp;rsquo;m moving this blog to Github host because I don&amp;rsquo;t have enough money to pay for hosting and domain bill. Thanks to Github, my blog won&amp;rsquo;t die anytime soon B)&lt;/p&gt;
 </description>
