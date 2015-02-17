@@ -1,4 +1,0 @@
-set ftp:ssl-allow off
-open -u atmm5927,Atmorojo4cc0unt -p 21  ftp.atmorojo.com
-mirror -c -e -R _site public_html
-exit
