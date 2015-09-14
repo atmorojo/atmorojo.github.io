@@ -1,1 +1,18 @@
-<h1>This page supposed to be featuring a resume or something that showing what I am doing/simple portfolio. But you still can visit my blog <a href='/blog/'>here</a> </h1>
+---
+layout: default
+---
+
+<!-- Home -->
+<div class="posts">
+    {% for post in paginator.posts %}
+    <article class='post'>
+        <header>
+            <h2 class="category"> Kategori </h2>
+            <h1 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <span class='meta'>Posted on: {{ post.date | date_to_string }}</span>
+        </header>
+        {{ post.excerpt }} <a href='{{ post.url }}'>Continue &rarr;</a>
+    </article>
+    {% endfor %}
+    {% include pagination.html %}
+</div>

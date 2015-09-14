@@ -1,16 +1,30 @@
+# Site settings
+
+title: Atmorojo
 name: Atmorojo
+email: satmo54@gmail.com
 description: "When I find a nice desctiption, I'll put it here. I promise."
 
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+twitter_username: atmorojo
+github_username: atmorojo
+
 url: http://atmorojo.github.io
-paginate: 10
+paginate: 5
+paginate_path: "posts/:num"
 excerpt_separator: <!--more-->
 
 markdown: rdiscount
+
 rdiscount:
     extensions:
         - smart
 
-highlighter: pygments
-permalink: /blog/:year/:month/:day/:title/
+gems:
+    - jemoji
 
-exclude: [sass, stylesheets, config.rb, Guardfile, sync]
+highlighter: pygments
+permalink: /:year/:month/:day/:title/
+
+exclude: [node_modules, Guardfile]

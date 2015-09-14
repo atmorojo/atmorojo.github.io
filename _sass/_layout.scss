@@ -1,0 +1,20 @@
+.bar {
+    width: 100%;
+    padding: 0 1em;
+    position: fixed;
+}
+.posts, .footer { @include outer-container(em(800)); }
+.post, .pagination, .footer {
+    padding: 2em 1em;
+    border-bottom: 1px solid $light-gray;
+}
+[rel="next"] { float: right; @include clearfix; }
+.footer {
+    text-align: center;
+}
+
+.dim {
+    margin: 0;
+    color: $medium-gray;
+    font-size: .85em;
+}
