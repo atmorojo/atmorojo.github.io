@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Oh, Manusia(wi)"
-tags: nonsense curhat
+category: nonsense
 ---
 
 Nah, saking berantakannya isi kepala sampai bingung mau mulai nulis dari mana. Intinya, dalam memproses sesuatu yang baru, manusia mulai menuliskan sendiri fungsi untuk memproses hal tersebut dan menyimpannya untuk kembali digunakan saat menemukan kondisi yang sama. Gampangannya, setiap manusia terlahir mempunyai bakat dasar untuk jadi progarammer (kesimpulan ngawur).

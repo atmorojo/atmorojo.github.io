@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Dotfiles"
-tags: programming
+category: programming
 ---
 
 It's a pain to set everything from the start when you get a new machine. So I put almost all of my dotfilesto a folder, and create a git repository for it.

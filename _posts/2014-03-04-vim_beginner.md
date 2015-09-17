@@ -1,7 +1,7 @@
 ---
 layout:		post
 title:		"Vim, eh?"
-tags: tutorial vim noob
+category: programming
 ---
 
 Kenapa saya pake Vim? Jujur saja, alasan utama yang mendorong saya untuk nekat pake Vim adalah kesan keren yang ada pada Vim saat pertama kali melihatnya (see? Cinta pada pandangan pertama benar-benar ada): ngetik di terminal! Bayangin perasaan seorang pemuda yang sedang dalam umur yang bisa dibilang kurang stabil pada waktu itu diberi pemandangan yang baginya "wah". Ngetik dalam lingkungan hitam putih memberi kesan bahwa penggunanya seorang expert di dunia beginian walaupun aslinya juga belum bisa apa-apa (seperti saya). Tapi semakin sering digunakan, ternyata Vim memberi kesan berbeda dengan _text editor_ lain yang pernah saya coba (selain kesan heker tentunya). Walaupun butuh waktu yang cukup lama untuk mempelajarinya, tapi waktu yang dihabiskan untuk membiasakan diri dengan lingkungan Vim saya rasa tidak sia-sia.

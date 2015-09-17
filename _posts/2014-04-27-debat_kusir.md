@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Debat Kusir"
-tags: nonsense
+category: nonsense
 ---
 
 Debat kusir. Perdebatan yang pake ngotot karena kedua belah pihak atau salah satunya udah ga bisa nalar dan fanatiknya kelewatan. Sementara yang benar, ga mau ngalah walaupun orang-orang udah tau kalo lawan diskusinya emang *\*sensor**.

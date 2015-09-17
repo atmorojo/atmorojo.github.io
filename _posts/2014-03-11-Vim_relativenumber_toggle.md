@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vim: relativenumber Toggle"
-tags: tutorial vim noob
+category: programming
 ---
 
 Orang-orang yang biasa menulis kode tentu saja tidak asing dengan fitur numbering (atau line number) pada sebuah editor. Vim sendiri mempunyai sebuah numbering mode yang cukup unik: relativenumber.
