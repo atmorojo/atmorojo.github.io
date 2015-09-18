@@ -1,15 +1,12 @@
 $(document).ready(function() {
-    $('.show-comments').on('click', function(){
-          var disqus_shortname = 'atmorojo'; // Replace this value with *your* username.
 
-          // ajax request to load the disqus javascript
-          $.ajax({
-                  type: "GET",
-                  url: "http://" + disqus_shortname + ".disqus.com/embed.js",
-                  dataType: "script",
-                  cache: true
-          });
-          // hide the button once comments load
-          $(this).fadeOut();
+    $('.show-comments').on('click', function(){
+        var disqus_shortname = 'atmorojo'; // Replace this value with *your* username.
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        $(this).fadeOut();
     });
+
 });
