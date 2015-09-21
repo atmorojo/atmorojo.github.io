@@ -9,7 +9,7 @@
 <div class="cover {{ page.category }}">
     <div class="desc-wrapper">
         <header>
-            <h2 class="category">{{ page.category }}</h2>
+            <h2 class="category">{% if page.category == "sol" %} Slice of Life {% else %} {{ page.category }}{% endif %}</h2>
             <h1 class="post-title">{{ page.title }}</h2>
             <p class="meta">{{ page.date | date:"%d %B %Y" }}</p>
         </header>

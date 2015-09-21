@@ -1,8 +1,15 @@
 .cover {
     background: $medium-gray;
     color: $base-background-color;
+
+    .category, .meta { @extend %h4 }
+    .post-title { @extend %h1 }
 }
-.desc-wrapper { padding: 23% 10%; }
+.desc-wrapper {
+    bottom: 5em;
+    padding: 0 7em;
+    position: absolute;
+}
 .pre-desc { @extend %h2 }
 .description {
     @extend %h1;
