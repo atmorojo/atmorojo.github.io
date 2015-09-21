@@ -1,7 +1,18 @@
+{% if page.url == "/index.html" %}
 <div class="cover">
     <div class="desc-wrapper">
-        {% if page.url == "/index.html" %}
+        <span class="pre-desc">Hi, I'm Risyad</span>
         <h2 class='description'>{{ site.description }}</h2>
-        {% endif %}
     </div>
 </div>
+{% else %}
+<div class="cover {{ page.category }}">
+    <div class="desc-wrapper">
+        <header>
+            <h2 class="category">{{ page.category }}</h2>
+            <h1 class="post-title">{{ page.title }}</h2>
+            <p class="meta">{{ page.date | date:"%d %B %Y" }}</p>
+        </header>
+    </div>
+</div>
+{% endif %}

@@ -1,16 +1,18 @@
-.post-title {
-    @extend %h4;
-    a {
-        color: $dark-gray;
-        &:active,
-        &:focus,
-        &:hover {
-            color: $action-color;
+.post {
+    .meta, .category { color: $medium-gray; }
+    .post-title {
+        @extend %h4;
+        a {
+            color: $dark-gray;
+            &:active,
+            &:focus,
+            &:hover {
+                color: $action-color;
+            }
         }
     }
 }
 .meta { margin: $small-spacing 0; }
-.meta, .category { color: $medium-gray; }
 .category {
     margin: 0;
     font-family: $helvetica;
