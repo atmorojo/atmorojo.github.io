@@ -3,7 +3,7 @@
 title: Atmorojo
 name: Atmorojo
 email: satmo54@gmail.com
-description: "When I find a nice desctiption, I'll put it here. I promise."
+description: "I Write Codes and Fancy Letters"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 
@@ -11,7 +11,7 @@ twitter_username: atmorojo
 github_username: atmorojo
 
 url: http://atmorojo.github.io
-paginate: 5
+paginate: 10
 paginate_path: "posts/:num"
 excerpt_separator: <!--more-->
 

@@ -15,7 +15,7 @@ body { background: #222; }
     padding: 2em 1em;
     border-bottom: 1px solid $light-gray;
 }
-[rel="next"] { float: right; @include clearfix; }
+.right { float: right; @include clearfix; }
 .footer {
     text-align: center;
 }

@@ -1,27 +1,15 @@
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a class='button' rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span class='button disabled'>&laquo; Newer Posts</span>
-  {% endif %}
-
-<!--
-    {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/archives' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% if paginator.previous_page %}
+    <a class='button' rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <span class='button disabled'>&laquo; Newer Posts</span>
     {% endif %}
-  {% endfor %}
--->
 
-  {% if paginator.next_page %}
-    <a class='button' rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
-  {% else %}
-    <span class='button disabled'>Older Posts &raquo;</span>
-  {% endif %}
+    {% if paginator.next_page %}
+    <a class='button right' rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
+    {% else %}
+    <span class='button right disabled'>Older Posts &raquo;</span>
+    {% endif %}
 </div>
 {% endif %}

@@ -1,3 +1,7 @@
+.title {
+    margin: 0;
+    font-family: $helvetica;
+}
 .title, .nav li
 {
     padding: 1em;
@@ -8,10 +12,10 @@
 .nav { float: right; }
 
 .bar-bg {
-  background: #222;
-  position: fixed;
-  height: 3.5em;
-  width: 100%;
-  top: 0;
-  z-index: 1;
+    background: #222;
+    position: fixed;
+    height: 3.5em;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
