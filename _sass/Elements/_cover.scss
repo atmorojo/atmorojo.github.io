@@ -2,7 +2,7 @@
     background: $medium-gray;
     color: $base-background-color;
 
-    .category, .meta { @extend %h4; }
+    .category, .meta { @extend %h5; }
     .post-title { @extend %h1; }
 }
 .desc-wrapper {
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .category, .meta { font-size: 2em; }
-    .post-title { font-size: 1em; }
+    .pre-desc, .category, .meta { font-size: 1em; }
+    .description, .post-title { font-size: 2em; }
     .desc-wrapper { padding: 0 2em; }
 }

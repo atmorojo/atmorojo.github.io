@@ -19,3 +19,11 @@
     top: 0;
     z-index: 1;
 }
+
+@media screen and (max-width: 450px) {
+    .title, .nav {
+    display: block;
+    text-align: center;
+    }
+    .nav { float: none; }
+}
