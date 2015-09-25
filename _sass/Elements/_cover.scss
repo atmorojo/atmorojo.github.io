@@ -14,9 +14,17 @@
 
 .programming {
     background: url('/img/Covers/programming-unsplash.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .nonsense {
     background: url('/img/Covers/nonsense-unsplash.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /*
 .desc-wrapper {
