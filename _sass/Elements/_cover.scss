@@ -4,12 +4,14 @@
 
     .category, .meta { @extend %h5; }
     .post-title { @extend %h1; }
+    display: table;
 }
+/*
 .desc-wrapper {
     bottom: 5em;
-    padding: 0 7em;
     position: absolute;
 }
+*/
 .pre-desc { @extend %h2; }
 .description {
     @extend %h1;
@@ -18,9 +20,16 @@
     font-family: $helvetica;
 }
 
+.desc-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 3em;
+}
+
 @media screen and (max-width: 700px) {
     .cover {
-        .pre-desc, .category, .meta { font-size: 1em; }
+        .pre-desc { font-size: 2em; }
+        .category, .meta { font-size: 1em; }
         .description, .post-title { font-size: 3em; }
         .desc-wrapper { padding: 0 2em; }
     }
