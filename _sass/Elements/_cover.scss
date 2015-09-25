@@ -1,10 +1,22 @@
 .cover {
-    background: $medium-gray;
+    background: url('/img/Covers/main-unsplash.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     color: $base-background-color;
 
     .category, .meta { @extend %h5; }
     .post-title { @extend %h1; }
     display: table;
+}
+
+.programming {
+    background: url('/img/Covers/programming-unsplash.jpg') no-repeat center center;
+}
+.nonsense {
+    background: url('/img/Covers/nonsense-unsplash.jpg') no-repeat center center;
 }
 /*
 .desc-wrapper {
@@ -24,6 +36,18 @@
     display: table-cell;
     vertical-align: middle;
     padding: 0 3em;
+}
+
+.desc-wrapper:after {
+    content: " ";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color:#000;
+    opacity:0.6;
+    z-index: -1;
 }
 
 @media screen and (max-width: 700px) {
