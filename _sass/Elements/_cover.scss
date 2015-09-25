@@ -19,7 +19,9 @@
 }
 
 @media screen and (max-width: 700px) {
-    .pre-desc, .category, .meta { font-size: 1em; }
-    .description, .post-title { font-size: 2em; }
-    .desc-wrapper { padding: 0 2em; }
+    .cover {
+        .pre-desc, .category, .meta { font-size: 1em; }
+        .description, .post-title { font-size: 3em; }
+        .desc-wrapper { padding: 0 2em; }
+    }
 }
