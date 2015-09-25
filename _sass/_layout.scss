@@ -12,7 +12,7 @@ body { background: #222; }
     z-index: 2;
 }
 .posts, .footer { @include outer-container(em(800)); }
-.post, .pagination, .footer {
+#disqus-thread, .post, .pagination, .footer {
     padding: 2em 1em;
     border-bottom: 1px solid $light-gray;
 }
