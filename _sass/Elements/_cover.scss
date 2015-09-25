@@ -2,18 +2,24 @@
     background: $medium-gray;
     color: $base-background-color;
 
-    .category, .meta { @extend %h4 }
-    .post-title { @extend %h1 }
+    .category, .meta { @extend %h4; }
+    .post-title { @extend %h1; }
 }
 .desc-wrapper {
     bottom: 5em;
     padding: 0 7em;
     position: absolute;
 }
-.pre-desc { @extend %h2 }
+.pre-desc { @extend %h2; }
 .description {
     @extend %h1;
     margin: 0;
     font-weight: lighter;
     font-family: $helvetica;
+}
+
+@media screen and (max-width: 700px) {
+    .category, .meta { font-size: 2em; }
+    .post-title { font-size: 1em; }
+    .desc-wrapper { padding: 0 2em; }
 }
