@@ -5,7 +5,8 @@ layout: default
 <div class="posts">
     <article class="post">
 
-        {{ content }}
+        {{ content | replace: '<!--more-->', '' }}
+
     </article>
 
     <div class="comment-button">

@@ -15,11 +15,10 @@ paginate: 10
 paginate_path: "posts/:num"
 excerpt_separator: <!--more-->
 
-markdown: rdiscount
+markdown: redcarpet
 
-rdiscount:
-    extensions:
-        - smart
+redcarpet:
+    extensions:  [smart]
 
 gems:
     - jemoji
@@ -27,4 +26,4 @@ gems:
 highlighter: pygments
 permalink: /:year/:month/:day/:title/
 
-exclude: [node_modules, Guardfile]
+exclude: [node_modules]
