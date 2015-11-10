@@ -4,8 +4,7 @@ title:		"Vim, eh?"
 category: programming
 ---
 
-Kenapa saya pake Vim? Jujur saja, alasan utama yang mendorong saya untuk nekat pake Vim adalah kesan keren yang ada pada Vim saat pertama kali melihatnya (see? Cinta pada pandangan pertama benar-benar ada): ngetik di terminal! Bayangin perasaan seorang pemuda yang sedang dalam umur yang bisa dibilang kurang stabil pada waktu itu diberi pemandangan yang baginya "wah". Ngetik dalam lingkungan hitam putih memberi kesan bahwa penggunanya seorang expert di dunia beginian walaupun aslinya juga belum bisa apa-apa (seperti saya). Tapi semakin sering digunakan, ternyata Vim memberi kesan berbeda dengan _text editor_ lain yang pernah saya coba (selain kesan heker tentunya). Walaupun butuh waktu yang cukup lama untuk mempelajarinya, tapi waktu yang dihabiskan untuk membiasakan diri dengan lingkungan Vim saya rasa tidak sia-sia.
-<!--more-->
+Kenapa saya pake Vim? Jujur saja, alasan utama yang mendorong saya untuk nekat pake Vim adalah kesan keren yang ada pada Vim saat pertama kali melihatnya [[ more ]] (see? Cinta pada pandangan pertama benar-benar ada): ngetik di terminal! Bayangin perasaan seorang pemuda yang sedang dalam umur yang bisa dibilang kurang stabil pada waktu itu diberi pemandangan yang baginya "wah". Ngetik dalam lingkungan hitam putih memberi kesan bahwa penggunanya seorang expert di dunia beginian walaupun aslinya juga belum bisa apa-apa (seperti saya). Tapi semakin sering digunakan, ternyata Vim memberi kesan berbeda dengan _text editor_ lain yang pernah saya coba (selain kesan heker tentunya). Walaupun butuh waktu yang cukup lama untuk mempelajarinya, tapi waktu yang dihabiskan untuk membiasakan diri dengan lingkungan Vim saya rasa tidak sia-sia.
 
 ### Vim Tutor
 ![Vim Tutor](https://lh4.googleusercontent.com/-YcFqEqhmmvc/UxdoCDs35CI/AAAAAAAAAl8/U3O6Prr0r5w/w377-h432-no/2014-03-06_12%253A41%253A43+AM.png "Vim Tutor")

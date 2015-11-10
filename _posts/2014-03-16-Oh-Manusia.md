@@ -5,7 +5,7 @@ category: nonsense
 ---
 
 Nah, saking berantakannya isi kepala sampai bingung mau mulai nulis dari mana. Intinya, dalam memproses sesuatu yang baru, manusia mulai menuliskan sendiri fungsi untuk memproses hal tersebut dan menyimpannya untuk kembali digunakan saat menemukan kondisi yang sama. Gampangannya, setiap manusia terlahir mempunyai bakat dasar untuk jadi progarammer (kesimpulan ngawur).
-<!--more-->
+[[ more ]]
 
 kalo kata orang Arab, dengan contoh, maka lebih jelaslah sebuah pernyataan.
 

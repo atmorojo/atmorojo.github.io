@@ -5,7 +5,7 @@ category: programming
 ---
 
 Orang-orang yang biasa menulis kode tentu saja tidak asing dengan fitur numbering (atau line number) pada sebuah editor. Vim sendiri mempunyai sebuah numbering mode yang cukup unik: relativenumber.
-<!--more-->
+[[ more ]]
 
 ## relativenumber
 Mode numbering sangat berguna saat ingin menghapus/me-yank beberapa baris sekaligus. Jika dalam mode absolute kita harus menghitung sendiri berapa baris yang akan kita hapus, dalam mode relative kita tidak perlu menghitung karena penomoran baris yang relative terhadap posisi kursor. Untuk mengaktifkan penomoran relative, gunakan perintah berikut:

@@ -13,12 +13,9 @@ github_username: atmorojo
 url: http://atmorojo.github.io
 paginate: 10
 paginate_path: "posts/:num"
-excerpt_separator: <!--more-->
+excerpt_separator: '[[ more ]]'
 
-markdown: redcarpet
-
-redcarpet:
-    extensions:  [smart]
+markdown: kramdown
 
 gems:
     - jemoji

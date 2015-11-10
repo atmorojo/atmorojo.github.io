@@ -5,13 +5,19 @@ layout: default
 <div class="posts">
     <article class="post">
 
-        {{ content | replace: '<!--more-->', '' }}
+        {{ content | replace: '[[ more ]]', '' }}
 
     </article>
 
+    {% if page.comment == false %}
+    <div class="comment-button">
+        <button class="show-comments" disabled>Comments disabled</button>
+    </div>
+    {% else %}
     <div class="comment-button">
         <button class="show-comments">Load Disqus comments</button>
     </div>
     <div id="disqus_thread"></div>
+    {% endif %}
 
 </div>
