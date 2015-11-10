@@ -1,8 +1,18 @@
 <head>
+<!--
+    redirect users to the https version of the website.
+    but: only check when on the production domain, as set in _config.yml.
+-->
+<script type="text/javascript">
+    var enforce = "atmorojo.github.io";
+    if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+    window.location = window.location.toString().replace(/^http:/, "https:");
+</script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>{{ site.name }}</title>
 <meta name="viewport" content="width=device-width">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 <!-- Feed -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">

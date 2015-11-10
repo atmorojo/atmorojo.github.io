@@ -10,15 +10,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: atmorojo
 github_username: atmorojo
 
-url: http://atmorojo.github.io
+url: https://atmorojo.github.io
 paginate: 10
 paginate_path: "posts/:num"
 excerpt_separator: '[[ more ]]'
 
 markdown: kramdown
-
-gems:
-    - jemoji
 
 highlighter: pygments
 permalink: /:year/:month/:day/:title/
