@@ -10,7 +10,7 @@ Jika anda perhatikan sekarang makin banyak tutorial atau dokumentasi yang menyer
 
 FFMPEG adalah *video converter* yang sangat *powerful*. Salah satu fitur hebatnya adalah kemampuannya mengambil input dari layar sehingga bisa dijadikan screencast, untuk kemudian di-*convert* ke format gif. Berikut contohnya:
 
-![Imgur](http://i.imgur.com/XBqr32Z.gifv "Halo!")
+![Imgur](http://i.imgur.com/XBqr32Z.gif)
 
 Gambar di atas dibuat dengan script yang tidak begitu panjang:
 <script src="https://gist.github.com/atmorojo/be360ecd77685bf10624.js"></script>
