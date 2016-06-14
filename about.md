@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi,I am Risyad. I'm that ordinary hobbyist who enjoy creating fancy
+letterforms and learning how to code.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I love to write words in fancy letterforms with calligraphy and lettering. And
+sometimes, I write codes to make my life easier. Just kidding. So far I only
+code for fun.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+And sometimes, I blog! How awesome is that?!

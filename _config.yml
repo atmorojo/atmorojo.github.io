@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 twitter_username: atmorojo
 github_username: atmorojo
+instagram_username: atmorojo
 
 url: https://atmorojo.github.io
 paginate: 10
@@ -17,7 +18,12 @@ excerpt_separator: '[[ more ]]'
 
 markdown: kramdown
 
-highlighter: pygments
 permalink: /:year/:month/:day/:title/
 
 exclude: [node_modules]
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
