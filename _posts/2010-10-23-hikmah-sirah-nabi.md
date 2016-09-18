@@ -3,7 +3,7 @@ layout: post
 title:  Untaian Hikmah dalam Sirah Nabawiyyah
 date: 2010-10-23
 category: deen
-comment: no
+comment: false
 ---
 
 Selama ini siroh Nabi hanya terkesan sebagai sekumpulan kisah dan cerita tentang perjalanan hidup Nabi Muhammad *-shallallahu ‘alaihi wa sallam-* yang setelah diketahui dibiarkan begitu saja.
