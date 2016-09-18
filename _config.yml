@@ -1,29 +1,26 @@
 # Site settings
-
 title: Atmorojo
 name: Atmorojo
+header-img: img/home-bg.jpg
 email: satmo54@gmail.com
 description: "I Write Codes and Fancy Letters"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://atmorojo.github.io
 
 twitter_username: atmorojo
 github_username: atmorojo
 instagram_username: atmorojo
 
-url: https://atmorojo.github.io
+# Build Settings
 paginate: 10
 paginate_path: "posts/:num"
-excerpt_separator: '[[ more ]]'
 
 markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
 
-exclude: [node_modules]
-lsi: false
-safe: true
+exclude: ["node_modules","Gruntfile.js","package.json"]
 incremental: false
 highlighter: rouge
-gist:
-    noscript: false
+gems: [jekyll-paginate, jekyll-feed]

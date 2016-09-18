@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Buat Gif Screencast dengan FFMPEG
+title:  Buat Gif Screencast dengan FFMPEG
 date: 2015-12-25
 category: Script
 comment: yes
 ---
 
-Jika anda perhatikan sekarang makin banyak tutorial atau dokumentasi yang menyertakan gambar berformat gif untuk memudahkan pembaca dalam mengikuti tutorial atau dokumentasi tersebut. Di sini, saya akan sedikit memberi ilustrasi cara membuatnya dengan ffmpeg. [[ more ]]
+Jika anda perhatikan sekarang makin banyak tutorial atau dokumentasi yang menyertakan gambar berformat gif untuk memudahkan pembaca dalam mengikuti tutorial atau dokumentasi tersebut. Di sini, saya akan sedikit memberi ilustrasi cara membuatnya dengan ffmpeg.
 
 FFMPEG adalah *video converter* yang sangat *powerful*. Salah satu fitur hebatnya adalah kemampuannya mengambil input dari layar sehingga bisa dijadikan screencast, untuk kemudian di-*convert* ke format gif. Berikut contohnya:
 

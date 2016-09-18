@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Blog is Up and Alive!
+title:  My Blog is Up and Alive!
 category: nonsense
 ---
 

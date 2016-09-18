@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Dotfiles"
+title:  "My Dotfiles"
 category: programming
 ---
 

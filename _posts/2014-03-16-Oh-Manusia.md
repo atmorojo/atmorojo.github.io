@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Oh, Manusia(wi)"
+title: "Oh, Manusia(wi)"
 category: nonsense
 ---
 
 Nah, saking berantakannya isi kepala sampai bingung mau mulai nulis dari mana. Intinya, dalam memproses sesuatu yang baru, manusia mulai menuliskan sendiri fungsi untuk memproses hal tersebut dan menyimpannya untuk kembali digunakan saat menemukan kondisi yang sama. Gampangannya, setiap manusia terlahir mempunyai bakat dasar untuk jadi progarammer (kesimpulan ngawur).
-[[ more ]]
 
 kalo kata orang Arab, dengan contoh, maka lebih jelaslah sebuah pernyataan.
 
@@ -13,7 +12,7 @@ Misal, kita belum bisa penjumlahan. Kemudian dihadapkan dengan kasus penjumlahan
 
 {% highlight cpp %}
 fungsi penjumlahan(angka_pertama, angka_kedua) {
-  return angka_pertama + angka_kedua;
+return angka_pertama + angka_kedua;
 }
 {% endhighlight %}
 

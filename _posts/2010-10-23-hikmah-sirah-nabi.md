@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Untaian Hikmah dalam Sirah Nabawiyyah
+title:  Untaian Hikmah dalam Sirah Nabawiyyah
 date: 2010-10-23
 category: deen
 comment: no
@@ -9,7 +9,7 @@ comment: no
 Selama ini siroh Nabi hanya terkesan sebagai sekumpulan kisah dan cerita tentang perjalanan hidup Nabi Muhammad *-shallallahu ‘alaihi wa sallam-* yang setelah diketahui dibiarkan begitu saja.
 
 Namun, bila diperhatikan Siroh Nabi Muhammad *-shallallahu ‘alaihi wa sallam-* mempunyai peranan penting dalam perjalanan hidup manusia.
-[[ more ]]
+
 
 ## Siroh Nabawiyyah sebagai perantara untuk memperkuat iman
 Salah satu cara untuk memperkuat iman adalah mempelajari Siroh Nabawiyyah. Anda akan menemukannya saat mempelajari keagungan lembaran-lembaran kehidupannya betapa beliau adalah manusia terbaik yang pernah menginjakkan kakinya di bumi ini. Dan hal itu seharusnya lebih dari cukup untuk meyakinkan manusia manapun yang pernah mempelajarinya bahwasanya seorang Rasulullah *-shallallahu ‘alaihi wa sallam-* tidak akan mungkin berdusta dalam menyampaikan amanah Islam yang diembankan Allah *–Subhaanahu wa ta’ala-* kepada beliau.

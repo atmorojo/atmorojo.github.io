@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About
+title: "About"
+description: "This is who I am."
+header-img: "img/about-bg.jpg"
 permalink: /about/
 ---
 
-Hi,I am Risyad. I'm that ordinary hobbyist who enjoy creating fancy
-letterforms and learning how to code.
+<p>Hi, I am Risyad. I'm that ordinary hobbyist who enjoy creating fancy letterforms and learning how to code.</p>
 
-I love to write words in fancy letterforms with calligraphy and lettering. And
-sometimes, I write codes to make my life easier. Just kidding. So far I only
+<p>I love to write words in fancy letterforms with calligraphy and lettering. And sometimes, I write codes to make my life easier. Just kidding. So far I only
 code for fun.
+</p>
 
-And sometimes, I blog! How awesome is that?!
+<p>And sometimes, I blog! How awesome is that?!</p>
