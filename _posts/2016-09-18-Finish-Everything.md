@@ -1,7 +1,7 @@
 ---
 title: "Ah, Sudahlah!"
 layout: post
-subtitle: "Selalu berusaha menyelesaikan kesempurnaan, atau selalu dalam proses menyempurnakan yang sudah selesai?"
+subtitle: "Selalu berusaha menyelesaikan ketidaksempurnaan, atau selalu dalam proses menyempurnakan yang sudah selesai?"
 ---
 
 Setelah masa-masa kritis, akhirnya blog ini saya lirik juga. Template blog yang tak kunjung kelar karena terlalu mengharapkan sesuatu yang sempurna justru tak pernah bisa terselesaikan dan membuat saya mangkir nge-blog. Berkali-kali blog ini tersisihkan dari pandangan selama berbulan-bulan. Sampai akhir-akhir ini, saya menemukan sebuah pernyataan yang menarik dari Instagram Seanwes:
