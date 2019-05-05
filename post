@@ -4,4 +4,7 @@ case $1 in
     new )
         vim _posts/`date +%F`-$2.md
         ;;
+    draft )
+        vim _drafts/`date +%F`-$2.md
+        ;;
 esac

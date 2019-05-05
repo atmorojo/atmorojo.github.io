@@ -1,4 +1,7 @@
+_hugo
 _site
 node_modules
 *.sass-cache
 *.swp
+.bundle
+_vendor
