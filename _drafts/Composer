@@ -1,5 +1,0 @@
-Install PHP
-Uncomment phar and openssl in /etc/php/php.ini
-curl -sS http://www.getcomposer.org/installer | php
-mv composer.phar /usr/bin/composer
-Add /usr/local/bin at your php.ini open_basedir declaration
