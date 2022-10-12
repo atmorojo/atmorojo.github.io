@@ -1,10 +1,7 @@
 name: Build and deploy GH Pages
 
 # On every push this script is executed
-on:
-  push:
-    branches:
-      - main
+on: push
       
 jobs:
   build:
