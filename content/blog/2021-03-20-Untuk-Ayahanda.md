@@ -5,14 +5,20 @@ date: '2021-03-20T00:00:00Z'
 title: 'Untuk Ayahanda'
 ---
 
-Saat pagi masih malam,<br/>
-isinya membisu kaku.<br/>
-Tak sehelai pun daun beradu.<br/>
+Saat pagi masih malam<br/>
+Isinya membisu kaku<br/>
+tak sehelai ‘pun daun beradu<br/>
+sang penggerak duduk mengadu<br/>
 
-Di ujung benang kusut terajut,<br/>
-utusan Tuan datang menjemput.<br/>
-Tangan kubentang, menyambut.<br/>
-"Selamat datang, _Maut_"<br/>
+di ujung benang kusut terajut<br/>
+terancang dalam lauh mahfudz<br/>
+sendiri ia menghadap Tuan<br/>
+tertinggi yang tak berlawan<br/>
+
+berhenti durhaka percikanmu<br/>
+yang kini meniti sisa juangmu<br/>
+dalam rindu sesal kagumku<br/>
+berharap bisa kembali mengadu<br/>
 
 ----
-Kendal, 11 Desember 2021
+Kendal, 24 Juni 2022
