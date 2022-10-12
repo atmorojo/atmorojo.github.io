@@ -1,4 +1,4 @@
 ---
 title: "Coba-coba build in public"
 ---
-Kasirkita
+Kasirkita nanti di sini ada gambarnya
