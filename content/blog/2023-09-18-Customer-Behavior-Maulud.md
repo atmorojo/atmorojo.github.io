@@ -1,5 +1,5 @@
 ---
-title: Customer Behavior\: Mulud
+title: "Customer Behavior: Mulud"
 ---
 
 Sebagai wirausahawan yang membidik pasar masyarakat jawa dengan mayoritas warganya pemeluk agama Islam, ada salah satu adat/budaya yang cukup berpengaruh pada penjualan toko: Mulud.
