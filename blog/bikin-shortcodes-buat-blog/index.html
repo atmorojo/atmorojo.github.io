@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+
+        <title>Atmorojo&#x27;s Random Thoughts</title>
+
+        
+            <link rel="stylesheet" href="https://atmorojo.github.io/theme.css">
+        
+        
+    </head>
+    <body>
+        <div class="content">
+        
+        
+            <header>
+                <div class="header-left">
+                    <a href="https:&#x2F;&#x2F;atmorojo.github.io" class="logo">Atmorojo&#x27;s Random Thoughts</a>
+                </div>
+                <div class="header-right">
+                    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                      <ul>
+                        
+                        
+                            
+                            <li class="nav">
+                                <a itemprop="url" href="https://atmorojo.github.io/blog/">
+                                    <span itemprop="name">Notes</span>
+                                </a>
+                            </li>
+                        
+                        
+                        <li class="nav">
+                            <a itemprop="url" href="https://github.com/atmorojo">
+                                <img class="icon" src="https:&#x2F;&#x2F;atmorojo.github.io/icons/github.svg" alt="Github">
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="nav">
+                            <a itemprop="url" href="https://twitter.com/atmorojo">
+                                <img class="icon" src="https:&#x2F;&#x2F;atmorojo.github.io/icons/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+        
+        
+        <main>
+            
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <div itemprop="headline">
+        <h1>Bikin Shortcodes Buat Blog</h1>
+        <div class="border"></div>
+        <time datetime="2020-02-05" class="date" itemprop="datePublished">
+            05 Feb 2020
+        </time>
+    </div>
+    <div itemprop="articleBody">
+        <p>Hari ini masih otak-atik blog. Dan kebetulan tulis sebuah penggalan hadits berbahasa Arab di tengah-tengah tulisan artikel berbahasa Indonesia. Walhasil, tulisan Arab yang seharusnya rata kanan mengikuti teks bahasa Indonesia yang rata kiri. Kalau bikin inline HTML tiap nulis kutipan bahasa Arab, bayanginnya aja udah kemeng. :sweat_smile:</p>
+<p>FYI, saya di sini pakai Tachyons CSS. Lagi males belajar framework CSS yang
+lagi happening jadi pakai ini aja yang mirip-mirip sama dasar-dasar CSS yang
+udah saya pelajari. Jadi, ambil gampangnya aja, deh: nyontek contoh components
+di web-nya Tachyons.</p>
+<p>Letakkan code shortcode di <code>layouts/shortcodes</code>. Dalam kasus saya, saya tulis
+file berikut ini di <code>layouts/shortcodes/dalil.html</code>.</p>
+<p>{{&lt; highlight html &gt;}}</p>
+<blockquote class="ph0 f2 measure-narrow center amiri">
+    <p class="tc lh-copy lh-title-ns">
+    {{ .Inner }}
+    </p>
+</blockquote>
+{{< /highlight >}}
+<p>Kemudian, saya panggil shortcode tersebut dalam file markdown saya dengan
+mengetik:</p>
+<p>{{&lt; highlight go &gt;}}
+{{%/* dalil <em>/%}} ضع نصا عربيا هنا {{%/</em> /dalil */%}}
+{{&lt; /highlight &gt;}}</p>
+<p>Oh, ternyata ada error! Code yang dihasilkan oleh shortcode saya dihapus sama
+<code>Goldmark</code> karena dianggap tidak aman, dan digantikan dengan pesan: <code>&lt;!-- raw HTML omitted --&gt;</code>. Tapi, hal ini bisa diatasi dengan mudah. Cukup tambahkan
+baris berikut di file config Hugo:</p>
+<p>{{&lt; highlight toml &gt;}}
+[markup.goldmark.renderer]
+unsafe= true
+{{&lt; /highlight &gt;}}</p>
+<p>Tambahan lagi. Waktu saya bikin artikel ini, saya mau kasih contoh penggunaan
+shortcode yang sudah saya tulis sendiri. Tapi Hugo merender code yang saya
+tulis di dalam shortcode {{&lt;/* highlight */&gt;}} sehingga contoh penggunaannya
+malah dirender jadi code HTML. Solusinya adalah menambah garis miring dan
+asterisk dalam shortcode seperti ini:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>{{&lt;/*/* shortcode */*/&gt;}}
+</span></code></pre>
+<p>Oke, karena saya ga pinter bikin penutup artikel jadi gini aja, ya.</p>
+
+    </div>
+</article>
+
+        </main>
+        
+        <footer>
+            
+            <div class="border"></div>
+            <div class="footer">
+                <small class="footer-left">
+                    Copyright &copy; Risyad Rais
+                </small>
+                <small class="footer-right">
+                    Powered by <a href="https://www.getzola.org">Zola</a> | Theme <a href="https://github.com/barlog-m/oceanic-zen">Oceanic Zen</a>
+                </small>
+            </div>
+        
+        </footer>
+    
+        </div>
+    </body>
+</html>
