@@ -14,4 +14,4 @@ mewujudkan.
 
 Oh, iya. Mungkin ada baiknya mengingatkan diri sendiri dengan _hadits_,
 
-{{% dalil %}}اعملوا، فكل ميسر لما خلق له {{% /dalil %}}
+اعملوا، فكل ميسر لما خلق له
