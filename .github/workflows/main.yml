@@ -13,7 +13,7 @@ jobs:
         with:
           tool: zola@0.17.1
       - name: Build and deploy
-        uses: zbrox/zola-deploy-action@master
+        run: bash ./build_deploy.sh
         env:
           # Provide personal access token
           TOKEN: ${{ secrets.TOKEN }}
